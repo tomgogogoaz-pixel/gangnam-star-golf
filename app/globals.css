@@ -88,7 +88,7 @@ svg.ico-fill { fill: currentColor; stroke: none; }
 .hd { position: fixed; inset: 0 0 auto 0; z-index: 50; background: rgba(18, 17, 16, 0.86); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: var(--white); }
 .hd-in { max-width: 1440px; margin: 0 auto; padding: 0 40px; height: var(--hd-h); display: flex; align-items: center; gap: 32px; }
 .hd-logo { display: flex; align-items: center; gap: 12px; flex: none; }
-.hd-logo img { width: 44px; height: 44px; object-fit: cover; }
+.hd-logo img { width: 44px; height: 44px; object-fit: contain; }
 .hd-name { display: flex; flex-direction: column; line-height: 1.2; }
 .hd-name strong { font-size: 18px; font-weight: 900; letter-spacing: -0.02em; }
 .hd-name em { font-style: normal; font-family: var(--en); font-size: 10px; font-weight: 600; letter-spacing: 0.3em; color: var(--muted-dark); }

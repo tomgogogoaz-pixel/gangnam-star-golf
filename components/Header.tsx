@@ -11,7 +11,7 @@ export default function Header() {
     <header className="hd">
       <div className="hd-in">
         <a href="#top" className="hd-logo" onClick={() => setOpen(false)}>
-          <Image src="/logo.png" alt="" width={44} height={44} priority />
+          <Image src="/logo.svg" alt="" width={44} height={44} priority unoptimized />
           <span className="hd-name">
             <strong>{site.name}</strong>
             <em>{site.nameEn}</em>
